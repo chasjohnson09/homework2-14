@@ -17,7 +17,7 @@ namespace homework2_14
 
             var highest = 0;
             var lowest = 1000;
-            foreach (var nbr in nbrs)
+            foreach (var nbr in nbrs) 
             {
                 highest = (nbr > highest) ? nbr : highest;  // more efficent way to do below but may bring 
                 lowest = (nbr < lowest) ? nbr : lowest;     // complications(see ternary statement in slides)
